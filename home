@@ -1,0 +1,54 @@
+<html>
+	<head>
+<!--
+
+ -->
+		<link rel="stylesheet" type="text/css" href="css/style.css">
+		<link href='http://fonts.googleapis.com/css?family=Gudea' rel='stylesheet' type='text/css'>
+	</head>
+
+	<body>
+		<div class="menu">
+			<div id="banner">
+				<a href="menu.html"><img src="img/logo2.png" /></a>
+			</div>
+			
+			<nav>
+				<ul>
+					<li><a href="#">Home</a></li>
+					<li><a href="#">My Profile</a>
+						<ul>
+							<li><a href="#">Photos</a></li>
+							<li><a href="#">Reviews</a></li>
+							<li><a href="#">Questions</a></li>
+						</ul>
+					</li>
+					<li><a href="#">Settings</a>
+						<ul>
+							<li><a href="#">Account</a></li>
+							<li><a href="#">Privacy</a></li>
+							<li><a href="#">Themes</a></li>
+						</ul>
+					</li>
+					<li><a href="#">Help</a></li>
+					<li><a href="#">Sign Out</a></li>
+				</ul>
+			</nav>
+			
+			<div class="left-panel">
+				<div class="form">
+					<p class="form-title">Where do you want to go?</p>
+					<input class="text-field" type="text" name="from" placeholder="from" value="to"/>
+					<input class="text-field" type="text" name="to" placeholder="to" value="to"/>
+					<input class="button" type="submit" name="search-btn" value="hanap!" />
+				</div>
+			</div>
+
+			<div class="right-panel">
+			</div>
+
+			<div class="body">
+			</div>
+		</div>
+	</body>
+</html>
